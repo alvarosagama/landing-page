@@ -1,0 +1,27 @@
+.container1 {
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.links{
+    color: #e5e7eb;
+    text-decoration: none;
+}
