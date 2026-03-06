@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Roboto', Times;
+}
+
 .container1 {
     background-color: #1F2937;
-    padding: 10px;
+    padding: 0px 180px;
+}
+
+.logo{
+    font-size: 24px;
+    padding: 0px;
+    color: #e5e7eb;
 }
 
 ul {
@@ -13,6 +25,8 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 
 }
 
@@ -24,4 +38,36 @@ a{
 .links{
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.awesome {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.left-awesome {
+    /* max-width: px; */
+    max-width: 420px;
+    
+}
+
+
+.botao {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.right-awesome {
+    max-height: px;
 }
