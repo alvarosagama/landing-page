@@ -49,11 +49,13 @@ a{
     justify-content: center;
     gap: 10px;
     padding-bottom: 40px;
+    min-width: 900px;
 }
 
 .left-awesome {
     /* max-width: px; */
-    max-width: 420px;
+    max-width: 550px;
+    min-width: 550px;
     
 }
 
@@ -71,5 +73,40 @@ a{
 
 
 .right-awesome {
-    max-height: px;
+    /* max-height: 220px; */
+    /* min-width: 550px */
+    /* width: 550px; */
+    /* flex: 1; */
 }
+
+.container1 img {
+    width: 450px;
+    height: 250px;
+}
+
+
+.container2 {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.pictures {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: baseline;
+    margin: 25px 25px;
+
+}
+
+.pic {
+    max-width: 200px;
+    gap: 10px;
+    min-width: 150px;
+    
+}
+
+.container2 img{
+    border-radius: 10px;
+}   
