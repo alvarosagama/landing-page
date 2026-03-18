@@ -56,11 +56,12 @@ a{
     /* max-width: px; */
     max-width: 550px;
     min-width: 550px;
+    /* font-size: 48px; */
     
 }
 
 
-.botao {
+button {
     background-color: #3882F6;
     border: none;
     color: white;
@@ -73,10 +74,10 @@ a{
 
 
 .right-awesome {
-    /* max-height: 220px; */
-    /* min-width: 550px */
-    /* width: 550px; */
-    /* flex: 1; */
+    max-height: 220px;
+    min-width: 550px;
+    width: 550px;
+    flex: auto;
 }
 
 .container1 img {
@@ -109,6 +110,8 @@ a{
 
 .container2 img{
     border-radius: 10px;
+    display: flex;
+    flex-shrink: 1;
 }  
 
 
@@ -132,5 +135,46 @@ a{
     display: flex;
     flex-direction: column;
     text-align: right;
-    padding: px;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 120px;
+}
+
+.sign-container {
+    display: flex;
+    flex-grow: 1;
+    gap: 80px;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 20px;
+    min-width: 900px;
+    border: none;
+    border-radius: 13px;
+    color: #E5E7EB;
+    
+}
+
+.sign-container button {
+    border: 1px solid #E5E7EB;
+    padding: 8px 16px;
+    align-self: center;
+}
+
+.left-sign {
+    padding: 0px;
+}
+
+#call {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fifth-container {
+    background-color: #1F2937;
+    padding: 15px;
+    text-align: center;
+    color: #E5E7EB;
 }
